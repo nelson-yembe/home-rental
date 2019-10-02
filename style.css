@@ -1,0 +1,86 @@
+/*CAROUSEL*/
+
+.main-text {
+    background-color: rgba(255, 255, 255, 0.877);
+    position: absolute;
+    top: 62px;
+    margin-top: 10%;
+    width: 80%;
+    height: 20%;
+    color: #FFF;
+}
+
+.carousel-btns {
+    margin-top: 2em;
+}
+
+.carousel-btns .btn {
+    width: 150px;
+}
+
+.flex {}
+
+.form-control {
+    height: calc(2.2em + 0.75rem + 3px)!important;
+}
+
+.btn-sample {
+    color: #ffffff;
+    font-weight: 600px;
+    font-size: 15px;
+    background-color: #F79708;
+    border-color: none;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    color: #ffffff;
+    background-color: #F7B203;
+    border-color: none;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    background-image: none;
+}
+
+.crd {
+    box-shadow: 7px 5px #e6e1e1!important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-width: 3px!important;
+    border-color: rgb(247, 151, 8)!important;
+    transition: .5s!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0)!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(247, 151, 8);
+    transition: .5s;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    margin-left: 40px;
+    margin-top: 36px;
+    margin-bottom: -88px;
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+    margin-top: -36px;
+}
